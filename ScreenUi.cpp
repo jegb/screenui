@@ -26,7 +26,7 @@
 #include <string.h>
 
 #ifdef SCREENUI_DEBUG
-#include <WProgram.h>
+#include <Arduino.h>
 #endif
 
 void* operator new(size_t size) { return malloc(size); }
